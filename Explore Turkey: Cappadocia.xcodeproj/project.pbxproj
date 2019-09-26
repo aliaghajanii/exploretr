@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		974D0C15233C8EFE007D9057 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974D0C14233C8EFE007D9057 /* AppDelegate.swift */; };
+		974D0C1A233C8EFE007D9057 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 974D0C18233C8EFE007D9057 /* Main.storyboard */; };
+		974D0C1C233C8F00007D9057 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 974D0C1B233C8F00007D9057 /* Assets.xcassets */; };
+		974D0C1F233C8F00007D9057 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 974D0C1D233C8F00007D9057 /* LaunchScreen.storyboard */; };
+		974D0C2B233C8FA3007D9057 /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974D0C2A233C8FA3007D9057 /* CustomColors.swift */; };
+		974D0C2D233C8FCC007D9057 /* CityDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974D0C2C233C8FCC007D9057 /* CityDetail.swift */; };
+		974D0C2F233C8FE3007D9057 /* KRSCollectionFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974D0C2E233C8FE3007D9057 /* KRSCollectionFlowLayout.swift */; };
+		974D0C31233C900E007D9057 /* ListOfPlacesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974D0C30233C900E007D9057 /* ListOfPlacesCell.swift */; };
+		974D0C33233C9030007D9057 /* GallaryPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974D0C32233C9030007D9057 /* GallaryPopup.swift */; };
+		974D0C35233C9061007D9057 /* PopupCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974D0C34233C9061007D9057 /* PopupCollectionCell.swift */; };
+		974D0C37233C907D007D9057 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974D0C36233C907D007D9057 /* Artwork.swift */; };
+		974D0C39233C90AD007D9057 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974D0C38233C90AD007D9057 /* HomeViewController.swift */; };
+		974D0C3B233C90CC007D9057 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974D0C3A233C90CC007D9057 /* MainViewController.swift */; };
+		974D0C3D233C90EE007D9057 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974D0C3C233C90EE007D9057 /* HistoryViewController.swift */; };
+		974D0C3F233C910E007D9057 /* ListOfPlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974D0C3E233C910E007D9057 /* ListOfPlacesViewController.swift */; };
+		974D0C41233C9137007D9057 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974D0C40233C9137007D9057 /* DetailViewController.swift */; };
+		974D0C43233C9169007D9057 /* MApViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974D0C42233C9169007D9057 /* MApViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		974D0C11233C8EFE007D9057 /* Explore Turkey: Cappadocia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Explore Turkey: Cappadocia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		974D0C14233C8EFE007D9057 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		974D0C19233C8EFE007D9057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		974D0C1B233C8F00007D9057 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		974D0C1E233C8F00007D9057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		974D0C20233C8F00007D9057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		974D0C2A233C8FA3007D9057 /* CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
+		974D0C2C233C8FCC007D9057 /* CityDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDetail.swift; sourceTree = "<group>"; };
+		974D0C2E233C8FE3007D9057 /* KRSCollectionFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRSCollectionFlowLayout.swift; sourceTree = "<group>"; };
+		974D0C30233C900E007D9057 /* ListOfPlacesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfPlacesCell.swift; sourceTree = "<group>"; };
+		974D0C32233C9030007D9057 /* GallaryPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GallaryPopup.swift; sourceTree = "<group>"; };
+		974D0C34233C9061007D9057 /* PopupCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupCollectionCell.swift; sourceTree = "<group>"; };
+		974D0C36233C907D007D9057 /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		974D0C38233C90AD007D9057 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		974D0C3A233C90CC007D9057 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		974D0C3C233C90EE007D9057 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		974D0C3E233C910E007D9057 /* ListOfPlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfPlacesViewController.swift; sourceTree = "<group>"; };
+		974D0C40233C9137007D9057 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		974D0C42233C9169007D9057 /* MApViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MApViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		974D0C0E233C8EFE007D9057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		974D0C08233C8EFE007D9057 = {
+			isa = PBXGroup;
+			children = (
+				974D0C13233C8EFE007D9057 /* Explore Turkey: Cappadocia */,
+				974D0C12233C8EFE007D9057 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		974D0C12233C8EFE007D9057 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				974D0C11233C8EFE007D9057 /* Explore Turkey: Cappadocia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		974D0C13233C8EFE007D9057 /* Explore Turkey: Cappadocia */ = {
+			isa = PBXGroup;
+			children = (
+				974D0C14233C8EFE007D9057 /* AppDelegate.swift */,
+				974D0C29233C8F16007D9057 /* Model */,
+				974D0C28233C8F12007D9057 /* Views */,
+				974D0C27233C8F0D007D9057 /* Controllers */,
+				974D0C26233C8F0A007D9057 /* Supporting files */,
+				974D0C20233C8F00007D9057 /* Info.plist */,
+			);
+			path = "Explore Turkey: Cappadocia";
+			sourceTree = "<group>";
+		};
+		974D0C26233C8F0A007D9057 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				974D0C1B233C8F00007D9057 /* Assets.xcassets */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		974D0C27233C8F0D007D9057 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				974D0C38233C90AD007D9057 /* HomeViewController.swift */,
+				974D0C3A233C90CC007D9057 /* MainViewController.swift */,
+				974D0C3C233C90EE007D9057 /* HistoryViewController.swift */,
+				974D0C3E233C910E007D9057 /* ListOfPlacesViewController.swift */,
+				974D0C40233C9137007D9057 /* DetailViewController.swift */,
+				974D0C42233C9169007D9057 /* MApViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		974D0C28233C8F12007D9057 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				974D0C1D233C8F00007D9057 /* LaunchScreen.storyboard */,
+				974D0C18233C8EFE007D9057 /* Main.storyboard */,
+				974D0C2E233C8FE3007D9057 /* KRSCollectionFlowLayout.swift */,
+				974D0C30233C900E007D9057 /* ListOfPlacesCell.swift */,
+				974D0C32233C9030007D9057 /* GallaryPopup.swift */,
+				974D0C34233C9061007D9057 /* PopupCollectionCell.swift */,
+				974D0C36233C907D007D9057 /* Artwork.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		974D0C29233C8F16007D9057 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				974D0C2A233C8FA3007D9057 /* CustomColors.swift */,
+				974D0C2C233C8FCC007D9057 /* CityDetail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		974D0C10233C8EFE007D9057 /* Explore Turkey: Cappadocia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 974D0C23233C8F00007D9057 /* Build configuration list for PBXNativeTarget "Explore Turkey: Cappadocia" */;
+			buildPhases = (
+				974D0C0D233C8EFE007D9057 /* Sources */,
+				974D0C0E233C8EFE007D9057 /* Frameworks */,
+				974D0C0F233C8EFE007D9057 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Explore Turkey: Cappadocia";
+			productName = "Explore Turkey: Cappadocia";
+			productReference = 974D0C11233C8EFE007D9057 /* Explore Turkey: Cappadocia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		974D0C09233C8EFE007D9057 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "ali aghajani";
+				TargetAttributes = {
+					974D0C10233C8EFE007D9057 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 974D0C0C233C8EFE007D9057 /* Build configuration list for PBXProject "Explore Turkey: Cappadocia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 974D0C08233C8EFE007D9057;
+			productRefGroup = 974D0C12233C8EFE007D9057 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				974D0C10233C8EFE007D9057 /* Explore Turkey: Cappadocia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		974D0C0F233C8EFE007D9057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				974D0C1F233C8F00007D9057 /* LaunchScreen.storyboard in Resources */,
+				974D0C1C233C8F00007D9057 /* Assets.xcassets in Resources */,
+				974D0C1A233C8EFE007D9057 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		974D0C0D233C8EFE007D9057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				974D0C41233C9137007D9057 /* DetailViewController.swift in Sources */,
+				974D0C2B233C8FA3007D9057 /* CustomColors.swift in Sources */,
+				974D0C35233C9061007D9057 /* PopupCollectionCell.swift in Sources */,
+				974D0C3F233C910E007D9057 /* ListOfPlacesViewController.swift in Sources */,
+				974D0C37233C907D007D9057 /* Artwork.swift in Sources */,
+				974D0C33233C9030007D9057 /* GallaryPopup.swift in Sources */,
+				974D0C15233C8EFE007D9057 /* AppDelegate.swift in Sources */,
+				974D0C3D233C90EE007D9057 /* HistoryViewController.swift in Sources */,
+				974D0C39233C90AD007D9057 /* HomeViewController.swift in Sources */,
+				974D0C2F233C8FE3007D9057 /* KRSCollectionFlowLayout.swift in Sources */,
+				974D0C2D233C8FCC007D9057 /* CityDetail.swift in Sources */,
+				974D0C31233C900E007D9057 /* ListOfPlacesCell.swift in Sources */,
+				974D0C3B233C90CC007D9057 /* MainViewController.swift in Sources */,
+				974D0C43233C9169007D9057 /* MApViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		974D0C18233C8EFE007D9057 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				974D0C19233C8EFE007D9057 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		974D0C1D233C8F00007D9057 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				974D0C1E233C8F00007D9057 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		974D0C21233C8F00007D9057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		974D0C22233C8F00007D9057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		974D0C24233C8F00007D9057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H626UYS5ZE;
+				INFOPLIST_FILE = "Explore Turkey: Cappadocia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.stack.Explore-Turkey--Cappadocia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		974D0C25233C8F00007D9057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H626UYS5ZE;
+				INFOPLIST_FILE = "Explore Turkey: Cappadocia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.stack.Explore-Turkey--Cappadocia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		974D0C0C233C8EFE007D9057 /* Build configuration list for PBXProject "Explore Turkey: Cappadocia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				974D0C21233C8F00007D9057 /* Debug */,
+				974D0C22233C8F00007D9057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		974D0C23233C8F00007D9057 /* Build configuration list for PBXNativeTarget "Explore Turkey: Cappadocia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				974D0C24233C8F00007D9057 /* Debug */,
+				974D0C25233C8F00007D9057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 974D0C09233C8EFE007D9057 /* Project object */;
+}
